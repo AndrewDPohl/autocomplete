@@ -2,8 +2,7 @@
 var getList = function() {
   var items = [];
   var currentStr = $("input").val();
-  // var re = /^[a-zA-Z0-9!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/\s\w?]*$/;
-  var re = /^[a-zA-Z0-9\s\w?]*$/i;
+  var re = /^[a-zA-Z0-9!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/\s\w?]*$/;
   $('.list-item').remove();
   $.getJSON( "./data.json", function( data ) {
     for(i = 0; i < data.products.length; i++) {

@@ -1,7 +1,14 @@
 .main-form {
-  width: 500px;
-  margin: 100px auto;
+  max-width: 500px;
+  margin: 40px auto;
   text-align: center;
+}
+
+.main-title {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 10px 0;
 }
 
 #my-new-list {
