@@ -1,0 +1,39 @@
+.main-form {
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+#my-new-list {
+  list-style: none;
+  max-height: 250px;
+  overflow: scroll;
+  margin-left: -40px;
+}
+
+.list-item {
+  border-bottom: 1px solid black;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.list-item:hover {
+  background-color: gray;
+  color: white;
+}
+
+#result {
+  list-style: none;
+  font-size: 20px;
+  margin-left: -40px;
+}
+
+#result li {
+  margin: 0 auto;
+}
+
+.item-type {
+  border-bottom: 2px solid black;
+}
+
+
