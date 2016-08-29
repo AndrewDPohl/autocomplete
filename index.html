@@ -13,18 +13,20 @@
     <h1 class="title">Javascript Autocomplete</h1>
     <h3 class="title">Built without the use of any jQuery Autocomplete Plugins</h3>
   </div>
-  <div class="main-form">
+  <div id="form" class="main-form">
     <h3>Find A Financial Services Institution Here</h3>
+    <h4 class="title">Click on one of the results to add to your list</h4>
     <form>
       <input id="inputField" class="col-xs-12" type="text" placeholder="Type Here"><br>
     </form>
-    <ul id="my-new-list"></ul>
+    <div id="new-list">
+      <ul id="my-new-list"></ul>
+    </div>
   </div>
 
-  <div class="result-container col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+  <div id="result-container" class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
     <ul id="result"></ul>
   </div>
-
 
 <script src="./main.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
